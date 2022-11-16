@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    tools:context=".views.MainActivity">
+
+    <RelativeLayout
+        android:background="#92000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <RelativeLayout
+            android:id="@+id/lnTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/font_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Tasks List"
+                    android:textColor="#37EFBA"
+                    android:textSize="30sp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/devider_line" />
+
+                <TextView
+                    android:id="@+id/txtAllTasks"
+                    style="@style/title_text_view"
+                    android:text="All" />
+
+
+                <TextView
+                    android:id="@+id/txtNewestTask"
+                    style="@style/title_text_view"
+                    android:text="Newest"/>
+
+                <TextView
+                    android:id="@+id/txtDoneTask"
+                    style="@style/title_text_view"
+                    android:text="Done" />
+
+                <TextView
+                    android:id="@+id/txtUnseenTask"
+                    style="@style/title_text_view"
+                    android:text="Unseen" />
+
+                <TextView
+                    android:id="@+id/txtPendingTask"
+                    style="@style/title_text_view"
+                    android:text="Pending" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:layout_gravity="right"
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:layout_gravity="center|right"
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/lnTopBar"
+            android:background="@drawable/devider_line" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tasksListView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/divider"
+            android:layout_height="match_parent"
+            android:nextFocusUp="@id/txtAllTasks"
+            android:layout_gravity="center"
+            android:paddingTop="10dip"/>
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txtNoItem"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="No item available!"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

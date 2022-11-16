@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "200200644822",
+    "firebase_url": "https://hotel-tv-5430d-default-rtdb.firebaseio.com",
+    "project_id": "hotel-tv-5430d",
+    "storage_bucket": "hotel-tv-5430d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200200644822:android:9025832169d8551c6b0177",
+        "android_client_info": {
+          "package_name": "com.walton.hoteltv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200200644822-kkdc51r42a4fmfnor7jeckchdkq7832a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walton.hoteltv",
+            "certificate_hash": "27196e386b875e76adf700e7ea84e4c6eee33dfa"
+          }
+        },
+        {
+          "client_id": "200200644822-3fg0mq9vnh8dcaqo0v874gpgri4hiec7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEINJr-gUIfgmXQzJLq8PWE7TTT142aL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200200644822-3fg0mq9vnh8dcaqo0v874gpgri4hiec7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

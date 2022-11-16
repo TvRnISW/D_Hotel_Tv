@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hotelback"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btnHotelInfo"
+                    style="@style/test_button"
+                    android:text="HOTEL INFORMATION" />
+
+
+                <Button
+                    android:id="@+id/btnCafe"
+                    style="@style/test_button"
+                    android:text="CAFE" />
+
+
+                <Button
+                    android:id="@+id/btnRestaurant"
+                    style="@style/test_button"
+                    android:text="RESTAURANT" />
+
+
+                <Button
+                    android:id="@+id/btnBar"
+                    style="@style/test_button"
+                    android:text="BAR" />
+
+
+                <Button
+                    android:id="@+id/btnFitnessSpa"
+                    style="@style/test_button"
+                    android:text="FITNESS and SPA" />
+
+
+                <Button
+                    android:id="@+id/btnLocalAttraction"
+                    style="@style/test_button"
+                    android:text="LOCAL ATTRACTION" />
+
+
+                <Button
+                    android:id="@+id/btnShop"
+                    style="@style/test_button"
+                    android:text="SHOP" />
+
+                <Button
+                    android:id="@+id/btnMenu"
+                    style="@style/test_button"
+                    android:text="Food Menu" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1">
+
+            <include layout="@layout/testlocalattraction" />
+
+            <include layout="@layout/testfitnessspa" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

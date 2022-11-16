@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="visible"
+    android:id="@+id/relBoardInfo"
+    android:background="#BF111111"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <!-- <TextView
+                android:id="@+id/hotelInfoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/dera_resort_spa"
+                android:textColor="@color/white"
+                android:textSize="20sp" />-->
+
+            <org.sufficientlysecure.htmltextview.HtmlTextView
+                android:id="@+id/boardInfoDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="50dp"
+                android:text="@string/info"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                tools:listitem="@layout/photo_list_row"
+                android:id="@+id/boardPhotoRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_below="@+id/boardInfoDescription"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

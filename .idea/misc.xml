@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_dining.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_exclusive.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_fitness_and_spa.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_food_menu.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_local_attraction.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_main.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_meeting.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_menu.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_my_service.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_pool_and_shower.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_problem_details.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_problem_list.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_test.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_test_details.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_test_main.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/activity_villa.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/banquet_info.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/bbq_info.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/home_layout.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/AOSP HOTEL MODE/HotelTV/app/src/main/res/layout/test_main_layout.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/drawable/btn_selected.xml" value="0.278" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/drawable/button_default.xml" value="0.278" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/drawable/button_default_click.xml" value="0.278" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/drawable/button_default_normal.xml" value="0.278" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/drawable/image_frame.xml" value="0.278" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_dining.xml" value="0.17083333333333334" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_exclusive.xml" value="0.25" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_fitness_and_spa.xml" value="0.25" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_food_menu.xml" value="0.23932291666666666" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_local_attraction.xml" value="0.2359375" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_meeting.xml" value="0.25" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_menu.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_my_service.xml" value="0.2359375" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_pool_and_shower.xml" value="0.2" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_problem_details.xml" value="0.2359375" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_problem_list.xml" value="0.2359375" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_test.xml" value="0.2359375" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_test_details.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_test_main.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/activity_villa.xml" value="0.17083333333333334" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/banquet_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/bbq_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/bill_info.xml" value="0.25" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/bill_list_row.xml" value="0.15205479452054796" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/board_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/chair_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/coffee_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/custom_dialog.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/dera_manik.xml" value="0.23932291666666666" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/dining_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/exclusive_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/fitness_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/home_layout.xml" value="0.18" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/hotel_info.xml" value="0.1453125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/item_files.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/item_user.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/kids_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/laundry_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/music_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/my_service.xml" value="0.24036458333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/open_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/photo_list_row.xml" value="0.1453125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/salon_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/spa_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/surfing_info.xml" value="0.23932291666666666" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/swim_info.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/test_food.xml" value="0.15205479452054796" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/test_main_layout.xml" value="0.15" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testdining.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testexclusive.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testfitnessspa.xml" value="0.11223958333333334" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testlocalattraction.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testmeeting.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testswimming.xml" value="0.125" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/testvilla.xml" value="0.11223958333333334" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/tower_layout.xml" value="0.12942708333333333" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/villa_layout.xml" value="0.15205479452054796" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/layout/watch_tv.xml" value="0.23932291666666666" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.352" />
+        <entry key="..\:/1. WALTON PROJECTS/hotel projects/hotel dera/HotelTV/HotelTV/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.182" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

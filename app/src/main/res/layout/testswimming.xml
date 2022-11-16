@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lnSwimming"
+    android:gravity="center"
+    android:visibility="visible"
+    android:background="#E6111111"
+    android:orientation="vertical"
+    >
+
+
+
+<!--    <ImageView-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:background="@drawable/pool"-->
+<!--        android:layout_width="550dp"-->
+<!--        android:layout_height="250dp"/>-->
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="press OK button\n to view details"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

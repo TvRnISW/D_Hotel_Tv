@@ -1,0 +1,3 @@
+rootProject.name = "HotelTv"
+include ':app'
+include ':leanback-v17'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginStart="25dp"
+    android:background="@drawable/image_frame"
+    android:clipChildren="true"
+    android:layout_width="156dp"
+    android:layout_height="116dp">
+
+    <ImageView
+        android:src="@drawable/comming_soon"
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

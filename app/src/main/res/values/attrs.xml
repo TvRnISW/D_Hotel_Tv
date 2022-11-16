@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="TvRecyclerView">
+        <attr name="android:orientation" tools:ignore="ResourceName"/>
+        <attr name="tv_layoutManager" format="string"/>
+        <attr name="tv_selectedItemOffsetStart" format="dimension"/>
+        <attr name="tv_selectedItemOffsetEnd" format="dimension"/>
+        <attr name="tv_selectedItemIsCentered" format="boolean"/>
+        <attr name="tv_isMenu" format="boolean"/>
+        <attr name="tv_isInterceptKeyEvent" format="boolean"/>
+        <attr name="tv_isSelectFirstVisiblePosition" format="boolean"/>
+        <attr name="tv_isMemoryFocus" format="boolean"/>
+        <attr name="tv_loadMoreBeforehandCount" format="integer"/>
+        <attr name="tv_optimizeLayout" format="boolean"/>
+        <attr name="tv_verticalSpacingWithMargins" format="dimension" />
+        <attr name="tv_horizontalSpacingWithMargins" format="dimension" />
+        <!--Grid-->
+        <attr name="tv_numColumns" format="integer"/>
+        <attr name="tv_numRows" format="integer"/>
+        <!--MetroGrid-->
+        <attr name="tv_laneCountsStr" format="string"/>
+        <attr name="tv_isIntelligentScroll" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TvRecyclerView_SpacingItemDecoration">
+        <attr name="android:verticalSpacing" tools:ignore="ResourceName"/>
+        <attr name="android:horizontalSpacing" tools:ignore="ResourceName"/>
+    </declare-styleable>
+
+    <declare-styleable name="TvRecyclerView_DividerItemDecoration">
+        <attr name="android:divider" tools:ignore="ResourceName"/>
+        <attr name="tv_verticalDivider" format="reference"/>
+        <attr name="tv_horizontalDivider" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TvRecyclerView_StaggeredGridViewChild">
+        <attr name="tv_span" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TvRecyclerView_SpannableGridViewChild">
+        <attr name="tv_colSpan" format="integer"/>
+        <attr name="tv_rowSpan" format="integer"/>
+    </declare-styleable>
+
+    <!-- 移动边框 -->
+    <declare-styleable name="BorderView">
+        <attr name="bv_res" format="reference" />
+        <!-- 缩放比例 x -->
+        <attr name="bv_scale_x" format="float" />
+        <!-- 缩放比例 y -->
+        <attr name="bv_scale_y" format="float" />
+        <!-- 移动时间 -->
+        <attr name="bv_duration" format="integer" />
+        <!-- 是否可用 -->
+        <attr name="bv_enabled" format="boolean" />
+        <!-- 是否可见 -->
+        <attr name="bv_visible" format="boolean" />
+        <!-- 设置间距 -->
+        <attr name="bv_padding" format="dimension" />
+    </declare-styleable>
+
+    <!-- 倒影控件属性 -->
+    <declare-styleable name="reflectItemView">
+        <attr name="isReflect" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MainUpView">
+        <attr name="upImageRes"  format="reference" />
+        <attr name="shadowImageRes"  format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" format="reference|dimension" />
+        <attr name="type">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BaseFlyingFrameView">
+        <attr name="flyingDuration" format="integer" />
+        <attr name="flyingSpace" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorFlyingFrameView">
+        <attr name="flyingBorderColor" format="color" />
+        <attr name="flyingBorderWidth" format="dimension" />
+        <attr name="flyingShadWidth" format="dimension" />
+        <attr name="flyingShadowColor" format="color" />
+        <attr name="flyingRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableFlyingFrameView">
+        <attr name="flyingDrawable" format="reference|color" />
+    </declare-styleable>
+
+    <!-- 图片文字自定义属性 -->
+    <declare-styleable name="DrawableTextView">
+        <attr name="drawableLeft" format="reference"/>
+        <attr name="drawableBottom" format="reference"/>
+        <attr name="drawableRight" format="reference"/>
+        <attr name="drawableTop" format="reference"/>
+        <attr name="drawableLeftWidth" format="dimension"/>
+        <attr name="drawableLeftHeight" format="dimension"/>
+    </declare-styleable>
+
+</resources>

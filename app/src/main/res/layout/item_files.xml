@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="85dp"
+    android:layout_height="80dp" android:id="@+id/rlItem"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="#202124"
+        card_view:cardCornerRadius="4dp">
+
+        <FrameLayout
+            android:background="#202124"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:id="@+id/imgFile"
+                android:layout_centerHorizontal="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:id="@+id/btnOpenDownload"
+                android:text="Download"
+                android:textSize="8sp"
+                android:gravity="center"
+                android:theme="@style/button"
+                android:layout_gravity="center|bottom"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

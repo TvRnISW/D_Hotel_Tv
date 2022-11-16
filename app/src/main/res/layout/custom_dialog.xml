@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:background="#141414">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:textSize="22sp"
+                android:fontFamily="@font/font_medium"
+                android:textColor="#fff"
+                android:text="Update Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:id="@+id/lnProcessing"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="@drawable/process"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/font_regular"
+                        android:id="@+id/txtProcessing"
+                        android:textColor="@color/text_un_select"
+                        android:layout_marginLeft="15dp"
+                        android:layout_gravity="center"
+                        android:text="Task Processing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:id="@+id/lnPending"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="@drawable/pending"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/font_regular"
+                        android:id="@+id/txtPending"
+                        android:textColor="@color/text_un_select"
+                        android:layout_marginLeft="15dp"
+                        android:layout_gravity="center"
+                        android:text="Task Pending"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:nextFocusDown="@id/btnOk"
+                    android:padding="5dp"
+                    android:id="@+id/lnDone"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="@drawable/done"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/font_regular"
+                        android:id="@+id/txtDone"
+                        android:textColor="@color/text_un_select"
+                        android:layout_marginLeft="15dp"
+                        android:layout_gravity="center"
+                        android:text="Task Done"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="160dp"
+                android:layout_height="40dp">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/btnOk"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:text="Ok"
+                        android:fontFamily="@font/font_medium"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:nextFocusLeft="@id/btnOk"
+                    android:padding="10dp"
+                    android:id="@+id/btnCancel"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:text="Cancel"
+                        android:fontFamily="@font/font_medium"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

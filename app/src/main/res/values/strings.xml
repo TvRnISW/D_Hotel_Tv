@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hotel Mode</string>
+    <string name="hdmi2">HDMI2</string>
+    <string name="hdmi_1">HDMI 1</string>
+    <string name="please_choose_your_external_input_in_the_list">Please choose your External Input in the list</string>
+    <string name="my_devices">My Devices</string>
+    <string name="switch_to_hdmi_1">Switch to HDMI 1</string>
+    <string name="switch_to_hdmi2">Switch to HDMI2</string>
+    <string name="no_app">The app does not exist</string>
+    <string name="setting">TV SETTING</string>
+    <string name="youtube">Open Youtube</string>
+    <string name="app_list">App List</string>
+    <string name="dera_resort_spa"><![CDATA[ Resort & Spa]]></string>
+    <string name="info1"><![CDATA[beautiful sunset view resort & spa near the sea beach for uplifting your quality holiday time and spending worthy time with friends & family near the seaside of the world’s longest natural sea beach in Cox\'s Bazar. ]]></string>
+    <string name="bongoWal">BongoWal</string>
+    <string name="mediaPlayer">Media Player</string>
+    <string name="bill_info">Bill Summary</string>
+    <string name="info" />
+    <string name="ayna">AYNA</string>
+</resources>

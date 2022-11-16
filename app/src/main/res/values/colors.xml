@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_un_select">#94FFFFFF</color>
+    <color name="text_select">#ffffff</color>
+
+
+
+
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#57CBFF</color>
+
+    <color name="itemBg">#33FFFFFF</color>
+    <color name="itemHomeLeft">#A6FFFFFF</color>
+    <color name="white08">#eeFFFFFF</color>
+    <color name="white88">#88FFFFFF</color>
+    <color name="white44">#22FFFFFF</color>
+    <color name="offWwite">#D8FFFFFF</color>
+    <color name="black99">#99000000</color>
+    <color name="black22">#22000000</color>
+    <color name="blackbb">#bb000000</color>
+    <color name="seekBarBg">#aa8DC251</color>
+    <color name="waveViewBg">#0066CC</color>
+    <color name="bgActivity">#001C28</color>
+    <color name="yellow">#ffaa3f</color>
+
+    <color name="blue">#1F7899</color>
+    <color name="tra">#00FFFFFF</color>
+    <color name="textColor">#4D4D4D</color>
+    <color name="divide_gray_color">#5B9DE3</color>
+    <color name="selector">#0066CC</color>
+
+    <color name="red">#D6124C</color>
+
+    <color name="background">#ff223355</color>
+    <color name="border">#ffffc90e</color>
+    <color name="bg_image">#ff009fad</color>
+    <color name="bg_audio">#ffc44c36</color>
+    <color name="bg_vedio">#ff00cc66</color>
+    <color name="bg_apk">#ffff8040</color>
+    <color name="bg_local">#ff008080</color>
+    <color name="bg_samba">#ff8b6cff</color>
+    <color name="bg_usb1">#ffffb87c</color>
+    <color name="bg_usb2">#ffc8bfe7</color>
+    <color name="bottom_info_text_color">#b0b0b0</color>
+    <color name="lyric_normal">#ffffffff</color>
+    <color name="lyric_hightlight">#ffffc90e</color>
+
+
+
+
+</resources>

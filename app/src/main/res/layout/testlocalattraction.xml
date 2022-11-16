@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" android:id="@+id/lnlocalattr"
+    android:visibility="gone"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+<!--    <TextView-->
+<!--        android:fontFamily="@font/font_medium"-->
+<!--        android:text="LOCAL ATTRACTIONS"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textColor="#fff"-->
+<!--        android:id="@+id/txtTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/travelguide"
+        android:layout_width="500dp"
+        android:layout_height="250dp"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Press OK for more details"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

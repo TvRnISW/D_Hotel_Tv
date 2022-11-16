@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:visibility="visible"
+    android:id="@+id/relBill"
+    android:background="#BF111111"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/billInfoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/bill_info"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtBillRoomNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/billInfoTitle"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:text="Room: 7003"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:text="karim, rahim"
+        android:textColor="@color/white"
+        android:id="@+id/txtGuestNames"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txtBillRoomNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtStayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGuestNames"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:text="karim, rahim"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_below="@+id/txtStayDate"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#83FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/billRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtStayDate"
+        android:layout_marginTop="25dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:padding="5dp"
+    tools:context=".views.ProblemDetailsActivity">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B0000000"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:id="@+id/rlTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="600dp"
+                    android:fontFamily="@font/font_medium"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#D59612"
+                    android:fontFamily="@font/font_regular"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/font_medium"
+                    android:id="@+id/txtDateTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/devider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/lnTime"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/devider_line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:clipChildren="true"
+            android:clipToPadding="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rlTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/lnDeadline"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Task Deadline:"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtDeadline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#FFB74D"
+                    android:textSize="16sp"
+                    android:text="__-__-__"
+                    android:fontFamily="@font/font_regular"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:nextFocusDown="@+id/horizontalgridviewSubFilesItem"
+                    android:nextFocusRight="@id/btnAssignTask"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btnUpdateStatus"
+                    android:text="Update Status"
+                    android:layout_marginRight="15dp"
+                    android:focusable="true"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:background="@drawable/button_default"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"/>
+
+                <Button
+                    android:nextFocusDown="@+id/horizontalgridviewSubFilesItem"
+                    android:nextFocusLeft="@id/btnUpdateStatus"
+                    android:layout_toRightOf="@+id/btnUpdateStatus"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btnAssignTask"
+                    android:text="Assign Task"
+                    android:textColor="#fff"
+                    android:focusable="true"
+                    android:nextFocusRight="@id/btnSetDeadLineTask"
+                    android:textSize="12sp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/button_default"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"/>
+
+                <Button
+                    android:nextFocusDown="@+id/horizontalgridviewSubFilesItem"
+                    android:nextFocusLeft="@id/btnAssignTask"
+                    android:layout_toRightOf="@+id/btnAssignTask"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btnSetDeadLineTask"
+                    android:text="Set Deadline"
+                    android:textColor="#fff"
+                    android:focusable="true"
+                    android:textSize="12sp"
+                    android:background="@drawable/button_default"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlTopBar"
+            android:layout_marginTop="35dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:id="@+id/lnReportedBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Reported By"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtReportedBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#CEFFFFFF"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/font_regular"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/lnReportedBy"
+                android:id="@+id/lnAssignedTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Assigned To:"
+                    android:fontFamily="@font/font_regular"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:id="@+id/txtAssignedTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnAssignedTo"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:fontFamily="@font/font_regular"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:id="@+id/txtUserId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#CEFFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnId"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/font_regular"
+                    android:id="@+id/txtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="140dp"
+                    android:layout_marginLeft="30dp"
+
+                    android:fallbackLineSpacing="true"
+                    android:lineSpacingExtra="4dp"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mmm.problemtrackerfridge.utils.MarqueeTextView
+                    android:id="@+id/txtFileNameMain"
+                    android:layout_width="600dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/font_regular"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="12sp"
+                    tools:ignore="EllipsizeMaxLines" />
+
+                <TextView
+                    android:fontFamily="@font/font_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Attached Files"
+                    android:textColor="#B7FFFFFF"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/devider_line" />
+
+            <com.open.leanback.widget.HorizontalGridView
+                android:id="@+id/horizontalgridviewSubFilesItem"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_above="@+id/imgBelowMore"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:nextFocusUp="@id/btnUpdateStatus"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                app:numberOfRows="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

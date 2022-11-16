@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#141414">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/font_medium"
+                android:id="@+id/txtTitle"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Assign Task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ScrollView
+                android:layout_above="@+id/ln"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:clipChildren="true"
+                    android:clipToPadding="true"
+                    android:orientation="vertical"
+                    android:layout_marginTop="25dp"
+                    android:layout_below="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/font_regular"
+                            android:id="@+id/txtCount"
+                            android:textSize="18sp"
+                            android:textColor="#fff"
+                            android:text="Selected Persons(0)"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:paddingBottom="25dp"
+                        android:id="@+id/recyclerAssignedPeople"
+                        android:layout_width="match_parent"
+                        app:reverseLayout="true"
+                        android:nestedScrollingEnabled="true"
+                        android:soundEffectsEnabled="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:nextFocusDown="@id/btnOk"
+                        android:layout_gravity="center"
+                        android:paddingTop="10dip"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/ln"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="160dp"
+                android:layout_height="40dp">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/btnOk"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:nextFocusUp="@id/recyclerAssignedPeople"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:text="Ok"
+                        android:fontFamily="@font/font_medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:nextFocusLeft="@id/btnOk"
+                    android:padding="10dp"
+                    android:nextFocusUp="@id/recyclerAssignedPeople"
+                    android:id="@+id/btnCancel"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:fontFamily="@font/font_medium"
+                        android:text="Cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
